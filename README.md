@@ -15,7 +15,11 @@ In order to run in a pm2 instance:
 Install pm2 from npm: `npm install pm2@latest -g`
 Then start the server with `pm2 start dist/server.js --name :name` (name of the server)
 
+Navigate to http://localhost:4000/
+
 For more advanced handling see: http://pm2.keymetrics.io/docs/usage/quick-start/
+
+
 
 To stop the server use: 
 `pm2 stop :name or :id`
